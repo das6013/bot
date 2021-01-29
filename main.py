@@ -11,7 +11,7 @@ hi1=['привет!','ку!','hi!']
 poka=['пока','прощай','до встречи']
 poka1=['пока!','прощай!','до встречи!']
 
-vk_session = vk_api.VkApi(token="5e62498d90d23127fd30580b3d79536ea9ecfda9b3fec309a56998cad7c5aacb25818977100ab093fd1b1")
+vk_session = vk_api.VkApi(token="token")
 vk = vk_session.get_api()
 longpoll = VkBotLongPoll(vk_session,"201547143")
 for event in longpoll.listen(): #Проверка действий
